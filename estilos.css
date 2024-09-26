@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    --color1: #26171B;
+    --color2: #313E59;
+    --color3: #5A758C;
+    --color4: #D0D9D9;
+    --color5: #8C6B58;
+}
+
+img{
+    max-width: 100%;
+    display:block;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px #313E59;
+}
+body{
+    background-image: url(imagenes/fondo_md.jpg);
+}
+#contenedor{
+    text-align: auto;
+    border: 3px solid var(--color4);
+    width: 90%;
+    margin: 40px;
+
+}
+#cabecera{
+    border:3px solid var(--color1);
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#centro{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 40px;
+ 
+    margin: 10px;
+}
+#menu{
+    color: #D0D9D9;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Premio{
+    text-align: center;
+    color:rgb(236, 186, 57);
+    text-shadow: 1px 1px white;
+    border: 2px solid var(--color3);
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px var(--color2);
+}
+
+#contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+.Fila{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid var(--color3);
+}
+#publicidad{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+#pie{
+    text-align: center;
+    padding: 10px;
+    border: 3px solid var(--color1);
+    margin: 10px;
+}
+h1{
+    color: cornflowerblue;
+    text-align: center;
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 5px 9px darkred;
+    font-size: 100px;
+    padding: auto;
+    margin: auto;
+    border: auto
+    
+}
+h2{
+    color: skyblue;
+    text-shadow: 2px 1px whitesmoke;
+    font-style: oblique;
+    padding: 5px;
+}
+p{
+    color: #D0D9D9;
+    padding: 10px;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
